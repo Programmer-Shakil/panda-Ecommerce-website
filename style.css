@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.6;
+}
+.banner-backgroundMain-color {
+  background-color: #dddddd;
+  border-radius: 20px;
+}
+.container {
+  margin-bottom: 100px;
+}
+.carousel-item {
+  padding: 30px 100px;
+}
+.price {
+  color: #eb4b4b;
+}
+.highlight {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  padding: 8px 50px;
+  margin-top: 1.5em;
+  cursor: pointer;
+}
+.cat1 {
+  background-color: #ffaf7b;
+}
+.cat2 {
+  background-color: blueviolet;
+}
+.cat3 {
+  background-color: blue;
+}
+.cat1,
+.cat2,
+.cat3 {
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.categorys img {
+  width: 100px;
+  height: 100px;
+}
+.categorys h2 {
+  color: #f1f1f1;
+}
+.card {
+  border: none;
+  box-shadow: 5px 5px 10px #d3d3d3;
+}
+#contact {
+  height: 3in;
+  background-color: #dddddd;
+  text-align: center;
+}
+#contact h6 {
+  color: #808080;
+}
+.submit {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  padding: 8px 150px;
+  margin-top: 1.5em;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+}
